@@ -13,7 +13,10 @@ Let's imagine that during the team discussion you agreed on the final solution f
 - Apps can inform the server about a new infection.
 
 ## Task 1
-Add new endpoint to fetch the list of infected people. The period should be provided by the App.
+Code Review
 
 ## Task 2
+Add new endpoint to fetch the list of infected people. The period should be provided to the API endpoint.
+
+## Bonus Task
 Implement caching in the backend for the existing endpoint. Please don't use any libraries to achieve it, just plain Python.

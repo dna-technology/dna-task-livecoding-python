@@ -1,6 +1,6 @@
 from typing import List
 
-from fastapi import FastAPI, Depends
+from fastapi import FastAPI
 from sqlmodel import Session, select
 
 from .database import create_db_and_tables, engine
